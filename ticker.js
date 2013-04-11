@@ -86,7 +86,7 @@ https.get(url, function(res){
 
     res.on('end',function(){
         var data = JSON.parse(rsp).data;
-        console.log (data.last.value + '||' + data.vwap.value)
+        console.log ('Last: ' + data.last.value + ' :: Weighted Avg :' + data.vwap.value)
     })
 
 });

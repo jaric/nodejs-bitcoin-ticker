@@ -16,6 +16,7 @@ set-window-option -g window-status-current-fg black
 set-window-option -g window-status-current-attr dim
 set -g status-right '#[fg=cyan,bright]#(node ~/ticker.js)'
 set -g status-right-length 75
+set status-interval 60
 ```
 
 then run 
