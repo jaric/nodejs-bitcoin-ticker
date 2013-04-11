@@ -24,3 +24,11 @@ then run
 ```
 tmux source-file ~/.tmux.conf
 ```
+
+## Donate
+
+:)
+
+```
+1JMQVCZgXD1Ejr49MouHqifJMjPgmnMrv7
+```
