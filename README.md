@@ -1,5 +1,9 @@
 
+## What does it do?
+
 This is a script you could use to display realtime bitcoin exchange rate in your tmux status line
+
+## How to use it?
 
 add following to your tmux confi (assuming ~/.tmux.conf)
 
@@ -15,4 +19,7 @@ set -g status-right-length 75
 ```
 
 then run 
-``tmux source-file ~/.tmux.conf``
+
+```
+tmux source-file ~/.tmux.conf
+```
