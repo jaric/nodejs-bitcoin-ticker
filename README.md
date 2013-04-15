@@ -1,4 +1,3 @@
-
 ## What does it do?
 
 This is a script you could use to display realtime bitcoin exchange rate in your tmux status line
