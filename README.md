@@ -4,7 +4,12 @@ This is a script you could use to display realtime bitcoin exchange rate in your
 
 ## How to use it?
 
-add following to your tmux confi (assuming ~/.tmux.conf)
+### install
+npm install -g biticker
+
+### tmux confi
+
+add following to your tmux config (assuming ~/.tmux.conf)
 
 ```
 set -g status-fg green
@@ -13,7 +18,7 @@ set -g status-attr bright
 set-window-option -g window-status-current-bg green
 set-window-option -g window-status-current-fg black
 set-window-option -g window-status-current-attr dim
-set -g status-right '#[fg=cyan,bright]#(node ~/ticker.js)'
+set -g status-right '#[fg=cyan,bright]#(biticker)'
 set -g status-right-length 75
 set status-interval 60
 ```
