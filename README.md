@@ -7,7 +7,7 @@ This is a script you could use to display realtime bitcoin exchange rate in your
 ### install
 npm install -g biticker
 
-### tmux confi
+### tmux config
 
 add following to your tmux config (assuming ~/.tmux.conf)
 
